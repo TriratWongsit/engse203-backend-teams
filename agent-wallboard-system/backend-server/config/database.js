@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 
 // SQLite Configuration
-const SQLITE_DB_PATH = process.env.SQLITE_DB_PATH || './database/sqlite/wallboard.db';
+const SQLITE_DB_PATH = process.env.SQLITE_DB_PATH || '../../database/sqlite/wallboard.db';
 
 function initSQLite() {
   return new Promise((resolve, reject) => {
